@@ -1,0 +1,31 @@
+{
+  "status": "SUCCESS",
+  "random_seed": 42,
+  "trainval_total": 15178,
+  "train_samples": 12898,
+  "val_samples": 2280,
+  "test_samples": 3798,
+  "smoke_train_samples": 64,
+  "smoke_val_samples": 32,
+  "splits_disjointness": {
+    "train_val_disjoint": true,
+    "train_test_disjoint": true,
+    "val_test_disjoint": true,
+    "test_strictly_quarantined": true,
+    "unannotated_5_jpegs_excluded": true
+  },
+  "classes_represented": {
+    "train_classes_count": 97,
+    "val_classes_count": 97,
+    "total_canonical_classes": 102
+  },
+  "artifacts": {
+    "train_txt": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/train.txt",
+    "val_txt": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/val.txt",
+    "test_txt": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/test.txt",
+    "train_smoke_txt": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/train_smoke.txt",
+    "val_smoke_txt": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/val_smoke.txt",
+    "dataset_yaml": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/ip102.yaml",
+    "smoke_yaml": "/home/saksham/CropGuard-AI/data/processed/detection/ip102/ip102_smoke.yaml"
+  }
+}

@@ -1,0 +1,4 @@
+# Development, Notebook and Testing Dependencies
+-r requirements.txt
+pytest==9.2.0
+ipykernel==7.4.0

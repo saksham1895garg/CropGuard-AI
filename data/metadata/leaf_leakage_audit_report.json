@@ -1,0 +1,103 @@
+{
+  "audit_timestamp": "2026-11-18T06:02:22Z",
+  "dataset": "PlantVillage (54,305 color images, 38 classes)",
+  "exact_duplicates": {
+    "unique_md5_count": 54284,
+    "duplicate_md5_hashes_count": 21,
+    "duplicate_images_count": 42,
+    "crossovers_naive_split": {
+      "train_val": 5,
+      "train_test": 4,
+      "val_test": 1,
+      "total_crossing_hashes": 10,
+      "total_crossing_images": 20
+    },
+    "crossovers_corrected_group_aware_split": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "total_crossing_hashes": 0,
+      "total_crossing_images": 0
+    }
+  },
+  "old_naive_70_15_15_audit": {
+    "old_total_leaf_groups": 20015,
+    "old_leaking_leaf_groups": 6464,
+    "old_leak_percentage": 32.3,
+    "old_md5_train_test_overlap": 4,
+    "old_leaf_train_test_overlap": 4290
+  },
+  "official_mohanty_audit": {
+    "official_train_images": 43596,
+    "official_test_images": 10709,
+    "official_train_leaves": 16124,
+    "official_test_leaves": 4118,
+    "official_overlap_leaves": 227,
+    "official_train_overlap_images": 290,
+    "official_test_overlap_images": 243
+  },
+  "corrected_group_aware_splits": {
+    "train_count": 35221,
+    "train_pct": 64.86,
+    "train_leaves": 12908,
+    "val_count": 8085,
+    "val_pct": 14.89,
+    "val_leaves": 2989,
+    "test_count": 10999,
+    "test_pct": 20.25,
+    "test_leaves": 4118,
+    "leaf_leakage_overlap": 0,
+    "md5_leakage_overlap": 0
+  },
+  "new_splits_location": "data/splits/classification_group_aware",
+  "leaf_map_coverage_taxonomy": {
+    "total_audited_images": 54305,
+    "author_confirmed_images": 41111,
+    "author_confirmed_pct": 75.7,
+    "author_confirmed_direct_images": 36741,
+    "author_confirmed_direct_pct": 67.66,
+    "author_confirmed_class_resolved_images": 4370,
+    "author_confirmed_class_resolved_pct": 8.05,
+    "ambiguous_mappings_initial": 4370,
+    "ambiguous_mappings_remaining_after_class_filter": 0,
+    "candidates_remaining_distribution": {
+      "1_candidate": 4370,
+      "multiple_candidates": 0,
+      "zero_candidates": 0
+    },
+    "total_author_confirmed_unique_groups": 7593,
+    "filename_derived_fallback_images": 13194,
+    "filename_derived_fallback_pct": 24.3,
+    "filename_derived_fallback_unique_groups": 12422,
+    "unresolved_images": 0,
+    "total_distinct_leaf_groups": 20015
+  },
+  "perceptual_hash_dhash_audit": {
+    "total_hashed_images": 54305,
+    "unique_dhash_values": 54282,
+    "dhash_duplicate_groups_hamming_0": 23,
+    "dhash_duplicate_images_hamming_0": 46,
+    "hamming_0_crossovers_naive_split": {
+      "train_val": 6,
+      "train_test": 4,
+      "val_test": 1,
+      "total": 11
+    },
+    "hamming_0_crossovers_corrected_split": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0,
+      "total": 0
+    },
+    "hamming_1_to_2_near_duplicate_pairs_train_test": {
+      "naive_split": 7,
+      "corrected_split": 0
+    }
+  },
+  "methodological_limitations_and_verdict": {
+    "verdict": "SUITABLE_FOR_FINAL_EVALUATION_WITH_DOCUMENTED_LIMITATIONS",
+    "proven_physical_independence_subset": "41,111 images (75.70%) confirmed by author metadata",
+    "unverified_physical_independence_subset": "13,194 images (24.30%) derived from filename stems; physical shoot/plant independence unprovable due to upstream metadata omission",
+    "leakage_mitigation_assessment": "Eliminates 100% of the 6,464 cross-partition leaves in naive split; resolves the 227 leaking groups in author split; eliminates 100% of exact MD5 and perceptual dHash (Hamming <= 2) cross-partition duplication."
+  }
+}

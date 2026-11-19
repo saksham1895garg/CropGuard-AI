@@ -1,0 +1,20 @@
+{
+  "archive_path": "data/raw/plantseg/Plantseg.zip",
+  "archive_size_bytes": 1691076634,
+  "archive_md5": "23385d877bc84bab51b54630055c75b8",
+  "zenodo_record_id": 16665770,
+  "zenodo_api_status": "UNVERIFIED (HTTP 403 Forbidden from api.zenodo.org)",
+  "zenodo_record_license_claim": "CC-BY-4.0 (UNVERIFIED - external Zenodo API blocked by Cloudflare/HTTP 403)",
+  "internal_metadata_file": "Plantseg/Metadata.csv",
+  "internal_metadata_status": "VERIFIED from archive",
+  "total_samples_audited": 11458,
+  "per_sample_licenses": {
+    "CC0": 10325,
+    "CC-BY": 1133
+  },
+  "per_sample_license_percentages": {
+    "CC0": 90.11,
+    "CC-BY": 9.89
+  },
+  "conclusion": "While Zenodo record-level metadata cannot be confirmed via API due to HTTP 403, internal archive Metadata.csv explicitly tags all 11,458 samples as CC0 (90.11%) or CC-BY (9.89%), both of which are fully permissive for educational and research use."
+}

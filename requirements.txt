@@ -1,0 +1,11 @@
+# CropGuard AI - Core Deep Learning Stack
+# Target Environment: Python 3.14.4 on Ubuntu 26.04 (WSL2) with NVIDIA RTX 5060 GPU
+
+# Primary Deep Learning Framework (with CUDA 12 runtime wheels bundled)
+tensorflow[and-cuda]==2.22.0rc0
+keras-nightly>=3.12.0.dev
+
+# Numerical Computing & Plotting
+numpy==2.5.4
+matplotlib==3.11.2
+pillow==13.0.0

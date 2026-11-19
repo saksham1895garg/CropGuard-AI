@@ -1,0 +1,204 @@
+{
+  "dataset_name": "PlantSeg (Zenodo 16665770)",
+  "train_pairs": 7916,
+  "val_pairs": 1247,
+  "test_pairs_quarantined": 2295,
+  "total_pairs": 11458,
+  "full_census_inspected": 9163,
+  "dimension_exact_match_count": 9155,
+  "dimension_exact_match_pct": 99.9127,
+  "dimension_swapped_orientation_count": 8,
+  "dimension_swapped_orientation_pct": 0.0873,
+  "dimension_other_mismatch_count": 0,
+  "swapped_pairs_details": [
+    {
+      "split": "train",
+      "image": "apple_rust_google_0065.jpg",
+      "img_dim": [
+        848,
+        636
+      ],
+      "mask_dim": [
+        636,
+        848
+      ]
+    },
+    {
+      "split": "train",
+      "image": "celery_anthracnose_google_0001.jpg",
+      "img_dim": [
+        2816,
+        2112
+      ],
+      "mask_dim": [
+        2112,
+        2816
+      ]
+    },
+    {
+      "split": "train",
+      "image": "grape_leaf_spot_google_0041.jpg",
+      "img_dim": [
+        800,
+        600
+      ],
+      "mask_dim": [
+        600,
+        800
+      ]
+    },
+    {
+      "split": "train",
+      "image": "tomato_bacterial_leaf_spot_42.jpg",
+      "img_dim": [
+        438,
+        364
+      ],
+      "mask_dim": [
+        364,
+        438
+      ]
+    },
+    {
+      "split": "train",
+      "image": "tomato_early_blight_google_0002.jpg",
+      "img_dim": [
+        600,
+        450
+      ],
+      "mask_dim": [
+        450,
+        600
+      ]
+    },
+    {
+      "split": "train",
+      "image": "tomato_early_blight_google_0043.jpg",
+      "img_dim": [
+        600,
+        450
+      ],
+      "mask_dim": [
+        450,
+        600
+      ]
+    },
+    {
+      "split": "train",
+      "image": "tomato_septoria_leaf_spot_google_0133.jpg",
+      "img_dim": [
+        450,
+        600
+      ],
+      "mask_dim": [
+        600,
+        450
+      ]
+    },
+    {
+      "split": "train",
+      "image": "tomato_yellow_leaf_curl_virus_google_0031.jpg",
+      "img_dim": [
+        450,
+        600
+      ],
+      "mask_dim": [
+        600,
+        450
+      ]
+    }
+  ],
+  "raw_mask_encoding": "Grayscale 'L', 0 = background, integer disease index [1, 115] = foliar lesion",
+  "binary_mask_conversion": "mask_binary = (mask_raw > 0).astype(np.float32) producing clean {0, 1} foliar lesion masks",
+  "unique_raw_mask_values_sample": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    18,
+    19,
+    22,
+    24,
+    26,
+    27,
+    28,
+    30,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    44,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    60,
+    61,
+    62,
+    67,
+    71,
+    72,
+    73,
+    76,
+    77,
+    79,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    95,
+    96,
+    97,
+    98,
+    99,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    113,
+    114
+  ],
+  "mask_modes_observed": [
+    "L"
+  ],
+  "empty_mask_percentage_metadata_train": 0.0,
+  "empty_mask_percentage_metadata_val": 0.0,
+  "test_partition_quarantine_preserved": true,
+  "audit_duration_seconds": 2.2
+}

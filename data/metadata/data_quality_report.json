@@ -1,0 +1,34 @@
+{
+  "dataset_name": "PlantVillage (Mohanty et al., 2016)",
+  "source": "Hugging Face / mohanty/PlantVillage",
+  "license": "CC-BY-SA-3.0",
+  "total_images_extracted": 54305,
+  "corrupted_images_detected": 0,
+  "total_classes": 38,
+  "min_class_samples": 152,
+  "max_class_samples": 5507,
+  "imbalance_ratio_max_to_min": 36.23,
+  "color_modes": {
+    "RGB": 54304,
+    "RGBA": 1
+  },
+  "resolutions": {
+    "256x256": 54305
+  },
+  "crop_summary": {
+    "Raspberry": 371,
+    "Potato": 2152,
+    "Corn_maize": 3852,
+    "Tomato": 18160,
+    "Apple": 3171,
+    "Cherry_including_sour": 1906,
+    "Orange": 5507,
+    "Soybean": 5090,
+    "Strawberry": 1565,
+    "Grape": 4062,
+    "Peach": 2657,
+    "Pepper_bell": 2475,
+    "Squash": 1835,
+    "Blueberry": 1502
+  }
+}

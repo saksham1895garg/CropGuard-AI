@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & Type Checking
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Datasets (Track splits and documentation cards, not raw/processed image arrays)
+data/raw/
+data/processed/
+data/cache/
+!data/splits/
+!data/DATASET_CARD.md
+
+# Model Checkpoints & Large Weights
+models/*
+!models/.gitkeep
+runs/
+*.pt
+
+# Logs, System & IDE
+*.log
+.DS_Store
+.vscode/
+.idea/

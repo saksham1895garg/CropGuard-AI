@@ -1,0 +1,97 @@
+class_id,raw_name,display_name,precision,recall,ap50,ap50_95
+0,rice leaf roller,Rice Leaf Roller,0.3907,0.7436,0.5971,0.3886
+1,rice leaf caterpillar,Rice Leaf Caterpillar,0.194,0.1538,0.1603,0.0872
+2,paddy stem maggot,Paddy Stem Maggot,1.0,0.0,0.0196,0.0106
+3,asiatic rice borer,Asiatic Rice Borer,0.1492,0.3824,0.2655,0.1711
+4,yellow rice borer,Yellow Rice Borer,0.1596,0.3125,0.2268,0.1429
+5,rice gall midge,Rice Gall Midge,0.2618,0.5416,0.358,0.1738
+6,Rice Stemfly,Rice Stemfly,1.0,0.0,0.2053,0.1366
+7,brown plant hopper,Brown Plant Hopper,0.2451,0.3988,0.257,0.0896
+8,white backed plant hopper,White Backed Plant Hopper,0.1919,0.4011,0.3351,0.1762
+9,small brown plant hopper,Small Brown Plant Hopper,1.0,0.0,0.0715,0.0322
+10,rice water weevil,Rice Water Weevil,0.2773,0.7667,0.4026,0.2725
+11,rice leafhopper,Rice Leafhopper,0.2496,0.6087,0.5474,0.383
+12,grain spreader thrips,Grain Spreader Thrips,1.0,0.0,0.0,0.0
+13,rice shell pest,Rice Shell Pest,0.1951,0.0836,0.1311,0.0905
+14,grub,Grub,0.7966,0.9576,0.9575,0.5527
+15,mole cricket,Mole Cricket,0.9086,0.9545,0.9836,0.5479
+16,wireworm,Wireworm,0.6254,0.8165,0.7288,0.4848
+17,white margined moth,White Margined Moth,0.158,0.0769,0.1069,0.0852
+18,black cutworm,Black Cutworm,0.3338,0.5672,0.3399,0.2618
+19,large cutworm,Large Cutworm,0.2054,0.2,0.1618,0.1279
+20,yellow cutworm,Yellow Cutworm,0.0906,0.093,0.1753,0.1344
+21,red spider,Red Spider,0.3639,0.7838,0.4836,0.3368
+22,corn borer,Corn Borer,0.4448,0.7444,0.6062,0.4356
+23,army worm,Army Worm,0.3204,0.561,0.2974,0.1837
+24,aphids,Aphids,0.3459,0.8345,0.5757,0.3073
+25,Potosiabre vitarsis,Potosiabre Vitarsis,0.5165,0.8298,0.8198,0.5869
+26,peach borer,Peach Borer,0.6532,0.74,0.777,0.5201
+27,english grain aphid,English Grain Aphid,0.0813,0.1667,0.0899,0.0425
+28,green bug,Green Bug,0.0,0.0,0.0298,0.0154
+29,bird cherry-oataphid,Bird Cherry-oataphid,0.0758,0.1026,0.0446,0.0261
+30,wheat blossom midge,Wheat Blossom Midge,1.0,0.0,0.298,0.1159
+31,penthaleus major,Penthaleus Major,0.482,0.1429,0.3703,0.1937
+32,longlegged spider mite,Longlegged Spider Mite,0.1371,0.1333,0.1148,0.042
+33,wheat phloeothrips,Wheat Phloeothrips,0.402,0.5455,0.4386,0.2864
+34,wheat sawfly,Wheat Sawfly,0.2543,0.2069,0.1723,0.0976
+35,cerodonta denticornis,Cerodonta Denticornis,1.0,0.0,0.0219,0.0129
+36,beet fly,Beet Fly,1.0,0.0,0.042,0.027
+37,flea beetle,Flea Beetle,0.4265,0.8514,0.709,0.3659
+38,cabbage army worm,Cabbage Army Worm,0.1629,0.2857,0.1699,0.1162
+39,beet army worm,Beet Army Worm,0.3199,0.5301,0.3575,0.2433
+40,Beet spot flies,Beet Spot Flies,1.0,0.0,0.0875,0.0534
+41,meadow moth,Meadow Moth,0.1954,0.25,0.2675,0.17
+42,beet weevil,Beet Weevil,0.2585,0.3871,0.3431,0.2032
+43,sericaorient alismots chulsky,Sericaorient Alismots Chulsky,0.2057,0.4894,0.1905,0.1309
+44,alfalfa weevil,Alfalfa Weevil,0.1146,0.2105,0.1673,0.1101
+45,flax budworm,Flax Budworm,0.1994,0.1348,0.1628,0.1023
+46,alfalfa plant bug,Alfalfa Plant Bug,0.2414,0.2609,0.2106,0.1258
+47,tarnished plant bug,Tarnished Plant Bug,0.4178,0.6338,0.5072,0.2728
+48,Locustoidea,Locustoidea,0.3382,0.578,0.432,0.2393
+49,lytta polita,Lytta Polita,0.3852,0.2459,0.3182,0.145
+50,legume blister beetle,Legume Blister Beetle,0.4306,0.7188,0.5638,0.27
+51,blister beetle,Blister Beetle,0.5249,0.8636,0.711,0.3727
+52,therioaphis maculata Buckton,Therioaphis Maculata Buckton,0.0,0.0,0.0,0.0
+53,odontothrips loti,Odontothrips Loti,1.0,0.0,0.2157,0.0644
+54,Thrips,Thrips,0.1837,0.1111,0.2247,0.168
+55,alfalfa seed chalcid,Alfalfa Seed Chalcid,1.0,0.0,0.0549,0.0246
+56,Pieris canidia,Pieris Canidia,0.0,0.0,0.0779,0.0365
+57,Apolygus lucorum,Apolygus Lucorum,0.0,0.0,0.0273,0.012
+58,Limacodidae,Limacodidae,0.1984,0.1702,0.1076,0.04
+62,oides decempunctata,Oides Decempunctata,0.569,0.9429,0.9242,0.4612
+64,Pseudococcus comstocki Kuwana,Pseudococcus Comstocki Kuwana,0.1639,0.3846,0.2767,0.1372
+65,parathrene regalis,Parathrene Regalis,1.0,0.0,0.0682,0.0378
+66,Ampelophaga,Ampelophaga,0.7903,0.9107,0.9416,0.7414
+67,Lycorma delicatula,Lycorma Delicatula,0.9587,0.9853,0.985,0.6802
+68,Xylotrechus,Xylotrechus,0.5586,0.7419,0.7519,0.5485
+69,Cicadella viridis,Cicadella Viridis,0.5806,0.8537,0.8461,0.5258
+70,Miridae,Miridae,0.491,0.811,0.6786,0.3742
+71,Trialeurodes vaporariorum,Trialeurodes Vaporariorum,0.2638,0.6522,0.3623,0.2747
+72,Erythroneura apicalis,Erythroneura Apicalis,1.0,0.0,0.0,0.0
+73,Papilio xuthus,Papilio Xuthus,0.2728,0.9545,0.4724,0.2363
+74,Panonchus citri McGregor,Panonchus Citri Mcgregor,0.486,0.1429,0.2128,0.0907
+76,Icerya purchasi Maskell,Icerya Purchasi Maskell,0.3249,0.8814,0.5532,0.2963
+77,Unaspis yanonensis,Unaspis Yanonensis,0.2616,0.9412,0.7861,0.294
+78,Ceroplastes rubens,Ceroplastes Rubens,0.3718,0.8588,0.6386,0.247
+79,Chrysomphalus aonidum,Chrysomphalus Aonidum,0.4048,0.2821,0.3385,0.1185
+81,Nipaecoccus vastalor,Nipaecoccus Vastalor,0.3081,0.25,0.1715,0.1036
+82,Aleurocanthus spiniferus,Aleurocanthus Spiniferus,0.2009,0.7407,0.3273,0.1222
+83,Tetradacus c Bactrocera minax,Tetradacus C Bactrocera Minax,0.0,0.0,0.1445,0.0974
+84,Dacus dorsalis(Hendel),Dacus Dorsalis(hendel),0.5836,0.6538,0.6298,0.4667
+85,Bactrocera tsuneonis,Bactrocera Tsuneonis,1.0,0.0,0.0267,0.0107
+86,Prodenia litura,Prodenia Litura,0.3919,0.5294,0.404,0.222
+87,Adristyrannus,Adristyrannus,0.5632,0.6667,0.7221,0.4895
+88,Phyllocnistis citrella Stainton,Phyllocnistis Citrella Stainton,1.0,0.0,0.0516,0.0456
+89,Toxoptera citricidus,Toxoptera Citricidus,1.0,0.0,0.0,0.0
+90,Toxoptera aurantii,Toxoptera Aurantii,1.0,0.0,0.1701,0.0527
+91,Aphis citricola Vander Goot,Aphis Citricola Vander Goot,0.0,0.0,0.0,0.0
+92,Scirtothrips dorsalis Hood,Scirtothrips Dorsalis Hood,0.1106,0.1169,0.1027,0.0629
+93,Dasineura sp,Dasineura Sp,1.0,0.0,0.0,0.0
+94,Lawana imitata Melichar,Lawana Imitata Melichar,0.5251,0.7626,0.7033,0.5055
+95,Salurnis marginella Guerr,Salurnis Marginella Guerr,0.4653,0.7838,0.6253,0.4543
+96,Deporaus marginatus Pascoe,Deporaus Marginatus Pascoe,0.5297,0.2308,0.3873,0.2397
+97,Chlumetia transversa,Chlumetia Transversa,0.0,0.0,0.0623,0.0365
+98,Mango flat beak leafhopper,Mango Flat Beak Leafhopper,0.0,0.0,0.0,0.0
+99,Rhytidodera bowrinii white,Rhytidodera Bowrinii White,0.4206,0.4828,0.4721,0.3867
+100,Sternochetus frigidus,Sternochetus Frigidus,0.0,0.0,0.0448,0.0291
+101,Cicadellidae,Cicadellidae,0.8259,0.9663,0.9582,0.7258
